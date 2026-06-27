@@ -21,81 +21,95 @@ function createFiles(basePath) {
     // DOMAIN
 
     "domain/entities/dummy.entity.ts",
+    "domain/enums/dummy.enum.ts",
     "domain/repositories/dummy.repository.ts",
+    "domain/repositories/dummy-read.repository.ts",
     "domain/value-objects/dummy.vo.ts",
 
 
     // APPLICATION - COMMANDS - IMPL
 
-    "application/use-cases/commands/implements/dummy.command.ts",
-    "application/use-cases/commands/implements/dummy.command.spec.ts",
+    "application/commands/implements/dummy.command.ts",
+    "application/commands/implements/dummy.command.spec.ts",
 
-    "application/use-cases/commands/implements/dummy-2.command.ts",
-    "application/use-cases/commands/implements/dummy-2.command.spec.ts",
+    "application/commands/implements/dummy-2.command.ts",
+    "application/commands/implements/dummy-2.command.spec.ts",
 
-    "application/use-cases/commands/implements/dummy-3.command.ts",
-    "application/use-cases/commands/implements/dummy-3.command.spec.ts",
+    "application/commands/implements/dummy-3.command.ts",
+    "application/commands/implements/dummy-3.command.spec.ts",
 
-    "application/use-cases/commands/implements/dummy-4.command.ts",
-    "application/use-cases/commands/implements/dummy-4.command.spec.ts",
+    "application/commands/implements/dummy-4.command.ts",
+    "application/commands/implements/dummy-4.command.spec.ts",
 
-    "application/use-cases/commands/implements/dummy-5.command.ts",
-    "application/use-cases/commands/implements/dummy-5.command.spec.ts",
+    "application/commands/implements/dummy-5.command.ts",
+    "application/commands/implements/dummy-5.command.spec.ts",
 
 
     // APPLICATION - QUERIES - IMPL
 
-    "application/use-cases/queries/implements/dummy.query.ts",
-    "application/use-cases/queries/implements/dummy.query.spec.ts",
+    "application/queries/implements/dummy.query.ts",
+    "application/queries/implements/dummy.query.spec.ts",
 
-    "application/use-cases/queries/implements/dummy-2.query.ts",
-    "application/use-cases/queries/implements/dummy-2.query.spec.ts",
+    "application/queries/implements/dummy-2.query.ts",
+    "application/queries/implements/dummy-2.query.spec.ts",
 
-    "application/use-cases/queries/implements/dummy-3.query.ts",
-    "application/use-cases/queries/implements/dummy-3.query.spec.ts",
+    "application/queries/implements/dummy-3.query.ts",
+    "application/queries/implements/dummy-3.query.spec.ts",
 
-    "application/use-cases/queries/implements/dummy-4.query.ts",
-    "application/use-cases/queries/implements/dummy-4.query.spec.ts",
+    "application/queries/implements/dummy-4.query.ts",
+    "application/queries/implements/dummy-4.query.spec.ts",
 
-    "application/use-cases/queries/implements/dummy-5.query.ts",
-    "application/use-cases/queries/implements/dummy-5.query.spec.ts",
+    "application/queries/implements/dummy-5.query.ts",
+    "application/queries/implements/dummy-5.query.spec.ts",
 
 
     // APPLICATION - COMMAND - HANDLERS
 
-    "application/use-cases/commands/handlers/dummy.handler.ts",
-    "application/use-cases/commands/handlers/dummy.handler.spec.ts",
+    "application/commands/handlers/dummy.handler.ts",
+    "application/commands/handlers/dummy.handler.spec.ts",
 
-    "application/use-cases/commands/handlers/dummy-2.handler.ts",
-    "application/use-cases/commands/handlers/dummy-2.handler.spec.ts",
+    "application/commands/handlers/dummy-2.handler.ts",
+    "application/commands/handlers/dummy-2.handler.spec.ts",
 
-    "application/use-cases/commands/handlers/dummy-3.handler.ts",
-    "application/use-cases/commands/handlers/dummy-3.handler.spec.ts",
+    "application/commands/handlers/dummy-3.handler.ts",
+    "application/commands/handlers/dummy-3.handler.spec.ts",
 
-    "application/use-cases/commands/handlers/dummy-4.handler.ts",
-    "application/use-cases/commands/handlers/dummy-4.handler.spec.ts",
+    "application/commands/handlers/dummy-4.handler.ts",
+    "application/commands/handlers/dummy-4.handler.spec.ts",
 
-    "application/use-cases/commands/handlers/dummy-5.handler.ts",
-    "application/use-cases/commands/handlers/dummy-5.handler.spec.ts",
+    "application/commands/handlers/dummy-5.handler.ts",
+    "application/commands/handlers/dummy-5.handler.spec.ts",
 
     // APPLICATION - QUERY - HANDLERS
 
-    "application/use-cases/queries/handlers/dummy.handler.ts",
-    "application/use-cases/queries/handlers/dummy.handler.spec.ts",
+    "application/queries/handlers/dummy.handler.ts",
+    "application/queries/handlers/dummy.handler.spec.ts",
 
-    "application/use-cases/queries/handlers/dummy-2.handler.ts",
-    "application/use-cases/queries/handlers/dummy-2.handler.spec.ts",
+    "application/queries/handlers/dummy-2.handler.ts",
+    "application/queries/handlers/dummy-2.handler.spec.ts",
 
-    "application/use-cases/queries/handlers/dummy-3.handler.ts",
-    "application/use-cases/queries/handlers/dummy-3.handler.spec.ts",
+    "application/queries/handlers/dummy-3.handler.ts",
+    "application/queries/handlers/dummy-3.handler.spec.ts",
 
-    "application/use-cases/queries/handlers/dummy-4.handler.ts",
-    "application/use-cases/queries/handlers/dummy-4.handler.spec.ts",
+    "application/queries/handlers/dummy-4.handler.ts",
+    "application/queries/handlers/dummy-4.handler.spec.ts",
 
-    "application/use-cases/queries/handlers/dummy-5.handler.ts",
-    "application/use-cases/queries/handlers/dummy-5.handler.spec.ts",
+    "application/queries/handlers/dummy-5.handler.ts",
+    "application/queries/handlers/dummy-5.handler.spec.ts",
 
 
+    // ERRORS
+
+    "application/errors/dummy.error.ts",
+    "application/errors/dummy-2.error.ts",
+
+    // DTOs
+    
+    "application/dtos/dummy.dto.ts",
+    "application/dtos/dummy-2.dto.ts",
+    "application/dtos/dummy-3.dto.ts",
+    "application/dtos/dummy-4.dto.ts",
+    
     // USE CASES
 
     // "application/use-cases/dummy.use-case.ts",
@@ -125,12 +139,18 @@ function createFiles(basePath) {
 
     // INFRA
 
+    "infra/repositories/database/mappers/dummy-read.mapper.ts",
+    "infra/repositories/database/mappers/dummy.mapper.ts",
+    "infra/repositories/database/dummy-read.repository.ts",
     "infra/repositories/database/dummy.repository.ts",
 
 
     // PRESENTATION
 
     "presentation/controllers/dummy.controller.ts",
+    "presentation/controllers/dummy-2.controller.ts",
+    "presentation/controllers/dummy-3.controller.ts",
+    "presentation/controllers/dummy-4.controller.ts",
 
     "presentation/dtos/inputs/dummy.input.ts",
     "presentation/dtos/inputs/dummy-2.input.ts",

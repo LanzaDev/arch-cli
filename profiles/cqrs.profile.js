@@ -1,15 +1,19 @@
 module.exports = [
   "domain/entities",
+  "domain/enums",
   "domain/repositories",
   "domain/value-objects",
 
   "application/mappers",
-  "application/use-cases/commands/handlers",
-  "application/use-cases/commands/implements",
-  "application/use-cases/queries/handlers",
-  "application/use-cases/queries/implements",
+  "application/dtos",
+  "application/errors",
+  "application/commands/handlers",
+  "application/commands/implements",
+  "application/queries/handlers",
+  "application/queries/implements",
 
-  "infra/repositories/database",
+  "infra/repositories/database/mappers",
+  // "infra/repositories/cache",
 
   "presentation/controllers",
   "presentation/dtos/inputs",
